@@ -149,13 +149,12 @@ a{
     font-size: 18pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: fixed;
-    text-align: center;
     z-index: 1;
 }
 .menu ul {
     list-style:none;
     position: relative;
-    text-align: center;
+    padding-left: 0;
 }
 .menu ul li { 
     width: 200px;
@@ -207,6 +206,56 @@ a{
     border-color:deepskyblue;
     font-weight: bold;
     border-radius: 40px;
+}
+
+.CarrinhoCompras{
+    width: 20%;
+    height: 80px;
+    float:right;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+.CarrinhoCompras ul{
+    list-style:none;
+    position: relative;
+    padding-right: 0;
+}
+.CarrinhoCompras ul li{
+    width: 230px;
+    float:right;
+}
+.CarrinhoCompras a{
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    background-color:white;
+    color: black;
+    border-radius: 20px;
+    padding-block: 10px;
+    margin-block: 4px;
+    padding-left: 10px;
+}
+.CarrinhoCompras a:hover{
+    background-color:white;
+    color: black;
+    border-bottom:3px solid;
+    border-left: 3px solid;
+    border-color:deepskyblue;
+    font-weight: bold;
+}
+.img-Carrinho{
+    margin-top: -38px;
+    display: block;
+    float: right;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
 }
 
 /* Estilo para menu da responsividade*/
@@ -301,5 +350,9 @@ label[for="btn_menu"]{
         font-size: 12px;
         margin-top: 5px;
         font-family: Arial, Helvetica, sans-serif;
+    }
+    .CarrinhoCompras{
+       position: relative; 
+       margin-block: -65px;
     }
 }
