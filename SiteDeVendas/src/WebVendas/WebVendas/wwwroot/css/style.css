@@ -1,0 +1,415 @@
+body {
+    margin-bottom: 60px;
+    padding: 0px;
+    background-color: rgb(0, 140, 255);
+    align-content: space-between;
+    width:100% 100%;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+.Tela-Inicial{
+    padding-top:100px;
+    text-align:center;
+}
+.Tela-Inicial a{
+    color:darkblue;
+    text-decoration:underline;
+}
+.Tela-Inicial a:hover{
+    color:darkred;
+}
+a {
+    text-decoration: none;
+}
+.bodyMain{
+    margin: 0px;
+    padding-top: 100px;
+}
+.slider1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+
+.box {
+    width: 300px;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+.slider-img{
+    height: 450px;
+    position: relative;
+}
+.slider-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.detalhe-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: ghostwhite;
+}
+.type{
+    display: flex;
+    flex-direction: column;
+}
+.type a{
+    color:darkblue;
+    margin: 5px 0px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-right: 9px;
+}
+.type span{
+    color:rgba(26,26,26,0.5);
+}
+#preco{
+    color:rgb(0 150 50);
+    font-weight: 100;
+    font-size: 1.1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.8px;
+}
+.overlay{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 38, 255, 0.400);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.btn-comprar{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    box-shadow: 3px 3px 30px rgba(0,0,0,0.2);
+}
+.btn-comprar:hover{
+    color: black;
+    background-color: rgba(0, 255, 34, 0.815);
+    transition: all ease 0.4s;
+}
+.slider-img:hover .overlay{
+    visibility: visible;
+    animation: fade a.5s;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* Estilos da barra de menu*/ /* Estilos da barra de menu*/ /* Estilos da barra de menu*/
+/* Estilos da barra de menu*/ /* Estilos da barra de menu*/ /* Estilos da barra de menu*/
+.footer-menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.514);
+    text-align: center;
+    border-top: 2px solid rgb(150, 150, 150);
+}
+.footer-menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-align:center;
+}
+.texto-footer{
+    width: 100%;
+    height: auto;
+}
+.header-menu {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border-bottom: 3px ridge rgb(100, 100, 100);
+    z-index: 10;
+}
+.menu{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    font-size: 18pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    z-index: 10;
+}
+.menu ul {
+    list-style:none;
+    position: relative;
+    padding-left: 10px;
+    padding-block:15px;
+}
+.menu ul li { 
+    width: 200px;
+    float:left;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(102, 102, 102, 0.349);
+    color: rgb(255, 255, 255);
+    border-radius: 30px 0px 30px 0px;
+    padding-block: 10px;
+    margin-block: -5px;
+}
+.menu ul ul{
+    padding-top:6px;
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+    padding-left: 0;
+}
+.menu a:hover {
+    background-color:rgba(0, 0, 0, 0);
+    color: rgb(196, 250, 252);
+    border-bottom:3px solid;
+    border-left: 3px solid;
+    border-color:deepskyblue;
+    font-weight: bold;
+}
+.menu ul ul li{
+    float: none;
+    margin-top:0px;
+    padding-block: 5.5px;
+}
+.menu ul ul li a{
+    font-size: 14pt;
+    font-weight: normal;
+    background-color: #1d1d1d;
+    color: white;
+    position: relative;
+    z-index: 1;
+    border-radius: 0;
+}
+.menu ul ul li a:hover{
+    background-color:black;
+    color: rgb(196, 250, 252);
+    border:2px solid;
+    border-color:deepskyblue;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.Contatos{
+    padding-top:100px;
+}
+.Contatos ul li a{
+    color:black;
+    font-weight:bold;
+    font-family:'Arial Rounded MT';
+}
+.Contatos ul li:hover a{
+    color:white;
+    font-weight:bold;
+    border:2px solid white;
+    border-radius:20px;
+    padding-inline:10px;
+}
+
+.CarrinhoCompras {
+    width: 20%;
+    height: 80px;
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    padding-block: 15px;
+    z-index: 10;
+    cursor: pointer;
+}
+.CarrinhoCompras ul {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.CarrinhoCompras ul li a{
+    list-style:none;
+}
+.CarrinhoCompras ul li {
+    width: 235px;
+    float: right;
+}
+#img-carrinho{
+    width: 20px;
+    height: 20px;
+}
+.CarrinhoCompras a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding-block: 10px;
+    margin-block: 4px;
+    padding-left: 10px;
+    z-index: 5;
+}
+.CarrinhoCompras a:hover{
+    background-color:white;
+    color: black;
+    border-bottom:3px solid;
+    border-left: 3px solid;
+    border-color:deepskyblue;
+    font-weight: bold;
+}
+.fa-counter{
+    color:red;
+    font-family: serif;
+    font-size: 15px;
+    display: block;
+    float: right;
+    position: relative;
+    margin-right: 16px;
+    z-index: 10;
+}
+
+/* Estilo para menu da responsividade*/
+
+label[for="btn_menu"]{
+    padding: 5px;
+    background-color: #1d1d1d;
+    color:#FFF;
+    font-family: "Arial";
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+#btn_menu{
+    display: none;    
+}
+#btn_menu:checked ~ .menu{
+    margin-left: 0;
+    transition: all .4s;
+}
+label[for="btn_menu"]{
+    display: none;
+}
+
+
+/*Opçoes da responsividade*/
+
+@media(max-width: 860px){
+    label[for="btn_menu"]{
+        padding-bottom: 0;
+        display: block;
+        margin-top: 12px;
+    }
+    .header-menu{
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        position: fixed;
+        z-index: 10;
+    }
+    #btn_menu:checked ~ .menu{
+        margin-left: 0%;
+        position: fixed;
+        z-index: 11;
+        height: auto;
+    }
+    .bodyMain{
+        padding-top: 80px;
+    }
+    .menu{
+        margin-top:6px;
+        margin-left: 100%;
+        transition: all .4s;
+    }
+    .menu ul{
+        margin-top: 5px;
+        padding:0px;
+    }
+    .menu a{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        margin-bottom: 1px;
+        margin-top: 0px;
+        border-radius:0;
+    }
+    .menu ul li{
+        width: 100%;
+        height:auto;
+        float:none;
+        display: block;
+    }
+    .menu ul ul{
+        padding:0;
+        position: relative;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+    }
+    .menu ul ul li{
+        padding:0;
+        margin:0;
+        padding-inline:30px;
+    }
+    .menu ul li:hover ul{
+        height: auto;
+        max-height: 150px;
+        padding-left: 0;
+    }
+    .menu a:hover {
+        background-color:rgba(255, 255, 255, 0.055);
+        color: rgb(196, 250, 252);
+        border-radius: 40px 40px 40px 40px;
+        border-bottom:3px solid;
+        border-left: 3px solid;
+        border-color:deepskyblue;
+        font-weight: bold;
+    }
+    .footer-menu a{
+        font-size: 12px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .CarrinhoCompras {
+        position: relative;
+        margin-block: -65px;
+        padding-block: 10px;
+    }
+}
