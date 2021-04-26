@@ -1,9 +1,9 @@
 body {
     margin-bottom: 60px;
     padding: 0px;
-    background-color: rgb(0, 140, 255);
+    background: -webkit-radial-gradient(white, deepskyblue, black);
     align-content: space-between;
-    width:100% 100%;
+    width: 100% 100%;
 }
 html {
     position: relative;
@@ -160,10 +160,10 @@ a {
     border-bottom: 3px ridge rgb(100, 100, 100);
     z-index: 10;
 }
-.menu{
+.menu {
     width: 100%;
     height: 75px;
-    background-color: black;
+    background: -webkit-linear-gradient(black, gray, black);
     font-size: 18pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: fixed;
@@ -184,7 +184,7 @@ a {
     text-decoration: none;
     text-align: center;
     background-color: rgba(102, 102, 102, 0.349);
-    color: rgb(255, 255, 255);
+    color: ghostwhite;
     border-radius: 30px 0px 30px 0px;
     padding-block: 10px;
     margin-block: -5px;
@@ -200,7 +200,7 @@ a {
 }
 .menu a:hover {
     background-color:rgba(0, 0, 0, 0);
-    color: rgb(196, 250, 252);
+    color: rgb(130, 255, 240);
     border-bottom:3px solid;
     border-left: 3px solid;
     border-color:deepskyblue;
@@ -330,6 +330,82 @@ label[for="btn_menu"]{
 }
 
 
+/* Estilo da página do Carrinho*/
+
+.small-container {
+    padding-inline: 50px;
+    padding-top: 100px;
+}
+
+.CART-page {
+    margin: 40px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.CART-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    color: black;
+    background: rgb(255, 255, 255, 0.30);
+    font-weight: bold;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: darkred;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+small {
+    font-size: 15px;
+}
+
+.preco-total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.preco-total table {
+    border-top: 3px solid black;
+    width: 100%;
+    max-width: 390px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+
+
+
 /*Opçoes da responsividade*/
 
 @media(max-width: 860px){
@@ -411,5 +487,8 @@ label[for="btn_menu"]{
         position: relative;
         margin-block: -65px;
         padding-block: 10px;
+    }
+    .CART-info p{
+        display:none;
     }
 }
