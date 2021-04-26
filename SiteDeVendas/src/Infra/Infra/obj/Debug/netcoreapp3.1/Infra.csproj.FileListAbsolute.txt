@@ -1,0 +1,4 @@
+C:\Users\MARTINS\Desktop\sistema responsivo - Testes\VendasOnline\SiteDeVendas\src\Infra\Infra\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\MARTINS\Desktop\sistema responsivo - Testes\VendasOnline\SiteDeVendas\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.csprojAssemblyReference.cache
+C:\Users\MARTINS\Desktop\sistema responsivo - Testes\VendasOnline\SiteDeVendas\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfoInputs.cache
+C:\Users\MARTINS\Desktop\sistema responsivo - Testes\VendasOnline\SiteDeVendas\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfo.cs

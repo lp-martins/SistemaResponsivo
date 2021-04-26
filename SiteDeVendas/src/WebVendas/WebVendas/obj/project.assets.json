@@ -662,11 +662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MARTINS\\Desktop\\sistema responsivo - Ancelmo\\VendasOnline\\SiteDeVendas\\src\\WebVendas\\WebVendas\\WebVendas.csproj",
+      "projectUniqueName": "C:\\Users\\MARTINS\\Desktop\\sistema responsivo - Testes\\VendasOnline\\SiteDeVendas\\src\\WebVendas\\WebVendas\\WebVendas.csproj",
       "projectName": "WebVendas",
-      "projectPath": "C:\\Users\\MARTINS\\Desktop\\sistema responsivo - Ancelmo\\VendasOnline\\SiteDeVendas\\src\\WebVendas\\WebVendas\\WebVendas.csproj",
+      "projectPath": "C:\\Users\\MARTINS\\Desktop\\sistema responsivo - Testes\\VendasOnline\\SiteDeVendas\\src\\WebVendas\\WebVendas\\WebVendas.csproj",
       "packagesPath": "C:\\Users\\MARTINS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MARTINS\\Desktop\\sistema responsivo - Ancelmo\\VendasOnline\\SiteDeVendas\\src\\WebVendas\\WebVendas\\obj\\",
+      "outputPath": "C:\\Users\\MARTINS\\Desktop\\sistema responsivo - Testes\\VendasOnline\\SiteDeVendas\\src\\WebVendas\\WebVendas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

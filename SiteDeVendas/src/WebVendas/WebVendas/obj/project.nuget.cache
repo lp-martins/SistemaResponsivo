@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h7rR+X7jkYFucftmIXGC5/c3QQJd5wXi4mZrvuev1+B4sf/SmCPwjOPPNO4m2fToK4F+z50rT+p2jiRnRA3Gqw==",
+  "dgSpecHash": "hPzisd1BYrh3vMZpKxdodV0N0/be4Soszlp5wqOq6Ss3KxMyvzrRpfjd3SNqp1M4z5VO6OcUlwaBWuiQSeByqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MARTINS\\Desktop\\sistema responsivo - Ancelmo\\VendasOnline\\SiteDeVendas\\src\\WebVendas\\WebVendas\\WebVendas.csproj",
+  "projectFilePath": "C:\\Users\\MARTINS\\Desktop\\sistema responsivo - Testes\\VendasOnline\\SiteDeVendas\\src\\WebVendas\\WebVendas\\WebVendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MARTINS\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.12\\microsoft.aspnetcore.mvc.razor.extensions.3.1.12.nupkg.sha512",
     "C:\\Users\\MARTINS\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.12\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.12.nupkg.sha512",
